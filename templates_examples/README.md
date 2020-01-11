@@ -21,10 +21,6 @@
   </p>
 </p>
 
-## Examples of templates included
-
-In the templates_examples dir
-
 ## Demo in:
 
 <a href="https://argenisosorio.github.io/bootstrap-4-examples/">https://argenisosorio.github.io/bootstrap-4-examples/</a>

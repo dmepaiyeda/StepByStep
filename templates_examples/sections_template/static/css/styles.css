@@ -1,0 +1,22 @@
+.section-gray {
+  border-radius: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.section-white {
+  background: #FFFFFF;
+  border-radius: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.section-footer {
+  background: #000000;
+  border-radius: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #FFFFFF;
+}
+.bg-light {
+  background-color: #FFFFFF !important;
+  border: 1px solid lightgray;
+}
