@@ -29,4 +29,30 @@ footer {
 }
 footer img {
     margin-top: 35px;
+    /* border: ridge 1px blue; */
+}
+
+.nav-bar{
+  box-sizing: content-box;
+}
+
+.trip-card{
+  padding: 1.5rem 1.5rem;
+  font-family: 'Fira Sans', sans-serif;
+  text-align: left;
+  font-size: 24px;
+  color: #8BBF7A
+}
+
+.trip-card-head{
+  padding: 2rem 2rem;
+  font-size: 26px;
+  font-family: 'Fira Sans', sans-serif;
+  text-align: left;
+  color: #444444;
+}
+
+.trip-font{
+  font-size: 20px;
+  color:#444444;
 }
