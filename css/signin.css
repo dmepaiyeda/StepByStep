@@ -22,12 +22,19 @@ body {
   background-color: #8BBE7A;
   border-color: #8BBE7A;
   font-family: 'Fira Sans', sans-serif;
+  border-radius: 25px;
 }
 
 .h3{
   font-family: 'Fira Sans', sans-serif;
-
 }
+
+.title{
+  font-family: 'Oswald', sans-serif;
+  color: #8BBE7A;
+}
+
+
 
 .form-signin {
   width: 100%;
