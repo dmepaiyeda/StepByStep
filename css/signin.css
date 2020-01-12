@@ -152,6 +152,14 @@ ul li ul li {
     clear: both;
     width: 100%;
 }
+.search_categories {
+    font-size: 13px;
+    padding: 10px 8px 10px 14px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    position: relative;
+}
 footer {
     background-color: #8BBE7A;
     height: 100px;
@@ -162,4 +170,18 @@ footer {
 footer img {
     margin-top: 35px;
     /* border: ridge 1px blue; */
+}
+.search-categories {
+    position: relative;
+    font-family: 'Fira Sans', sans-serif;
+}
+.search-categories select {
+    background-color: #fafafa;
+    width: 300px;
+    color: #555;
+    height: 45px;
+    padding-left: 10px;
+}
+#next-button {
+    margin-top: 30px;
 }

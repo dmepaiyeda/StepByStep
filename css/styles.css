@@ -24,6 +24,7 @@ hr {
     border: ridge 1px blue;
 }
 #group-title {
+    font-size: 32px;
     font-family: 'Fira Sans', sans-serif;
     margin-top: 45px;
     padding-bottom: 20px;
@@ -59,25 +60,23 @@ hr {
     color: #858585;
 }
 .add-group-button {
-<<<<<<< HEAD
-    color: #fff;
+    <<<<<<< HEAD color: #fff;
     border-radius: 15px;
-    padding: 10px 0px; 
+    padding: 10px 0px;
+    font-size: 24px;
+    color: #fff;
+    background-color: #8BBE7A;
+    width: 70vw;
+    margin: 0 auto;
+    =======color: #fff;
+    border-radius: 15px;
+    padding: 10px 0px;
     font-size: 24px;
     background-color: #8BBE7A;
     width: 70vw;
     margin: 0 auto;
-=======
-  color: #fff;
-  border-radius: 15px;
-  padding: 10px 0px; 
-  font-size: 24px;
-  background-color: #8BBE7A;
-  width: 70vw;
-  margin: 0 auto;
->>>>>>> 79b382023caa2fc94ebafd82f75c19d4f3105bf0
+    >>>>>>> 79b382023caa2fc94ebafd82f75c19d4f3105bf0
 }
-
 .add-group-button img {
     width: 30px;
     height: 30px;
@@ -93,28 +92,33 @@ footer img {
     margin-top: 35px;
     /* border: ridge 1px blue; */
 }
-
-.nav-bar{
-  box-sizing: content-box;
+.nav-bar {
+    box-sizing: content-box;
 }
-
-.trip-card{
-  padding: 1.5rem 1.5rem;
-  font-family: 'Fira Sans', sans-serif;
-  text-align: left;
-  font-size: 24px;
-  color: #8BBF7A
+.trip-card {
+    padding: 1.5rem 1.5rem;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: left;
+    font-size: 24px;
+    color: #8BBF7A
 }
-
-.trip-card-head{
-  padding: 2rem 2rem;
-  font-size: 26px;
-  font-family: 'Fira Sans', sans-serif;
-  text-align: left;
-  color: #444444;
+.trip-card-head {
+    padding: 2rem 2rem;
+    font-size: 26px;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: left;
+    color: #444444;
 }
-
-.trip-font{
-  font-size: 20px;
-  color:#444444;
+#trip-header {
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 45px;
+    padding-bottom: 20px;
+    border-bottom: solid 1px #cfcfcf;
+    text-align: left;
+    padding-left: 40px;
+    font-size: 32px;
+}
+.trip-font {
+    font-size: 20px;
+    color: #444444;
 }

@@ -1,142 +1,102 @@
-<html lang="en"><head>
+<html lang="en">
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
-  
+
     <title>Signin Template for Bootstrap</title>
-  
+
     <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sign-in/">
-  
+
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
-  
+
     <!-- Custom styles for this template -->
     <link href="css/signin.css" rel="stylesheet">
-  </head>
-    <style>
+</head>
+<style>
     @import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap');
-    </style>
-  
-  
-  <body class="text-center">
+
+</style>
+
+
+<body class="text-center">
     <form class="form-signin">
-      <!-- <img class="mb-4" src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72"> -->
-      
-      <h1 class="h3 mb-3 font-weight-normal">Let's start with the basics - Who are you?</h1>
-      
-      <h2 class="h6 mb-3 font-weight-normal">Your name</h2>
-      <label for="inputName" class="sr-only">Your name</label>
-      <input type="name" id="inputName" class="form-control mb-3" placeholder="What should we call you?">
-      <h2 class="h6 mb-3 font-weight-normal">City/Town</h2>
-      <label for="inputTransport" class="sr-only">City/Town</label>
-      <input type="transport" id="inputTransport" class="form-control mb-3" placeholder="Where are you from?">
-      <h2 class="h6 mb-3 font-weight-normal">Primary Transportation</h2>
-      <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <style>
-        .navbar {
-          overflow: hidden;
-          background-color: #333;
-          font-family: Arial, Helvetica, sans-serif;
-        }
-        
-        .navbar a {
-          float: left;
-          font-size: 16px;
-          color: white;
-          text-align: center;
-          padding: 14px 16px;
-          text-decoration: none;
-        }
-        
-        .dropdown {
-          float: left;
-          overflow: hidden;
-        }
-        
-        .dropdown .dropbtn {
-          cursor: pointer;
-          font-size: 16px;  
-          border: none;
-          outline: none;
-          color: white;
-          padding: 14px 16px;
-          background-color: inherit;
-          font-family: inherit;
-          margin: 0;
-        }
-        
-        .dropdown-content {
-          display: none;
-          position: absolute;
-          background-color: #f9f9f9;
-          min-width: 160px;
-          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-          z-index: 1;
-        }
-        
-        .dropdown-content a {
-          float: none;
-          color: black;
-          padding: 12px 16px;
-          text-decoration: none;
-          display: block;
-          text-align: left;
-        }
-        
-        .dropdown-content a:hover {
-          background-color: #ddd;
-        }
-        
-        .show {
-          display: block;
-        }
-        </style>
+        <!-- <img class="mb-4" src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72"> -->
+
+        <h1 class="h3 mb-3 font-weight-normal">Let's start with the basics - Who are you?</h1>
+
+        <h2 class="h6 mb-3 font-weight-normal">Your name</h2>
+        <label for="inputName" class="sr-only">Your name</label>
+        <input type="name" id="inputName" class="form-control mb-3" placeholder="What should we call you?">
+        <h2 class="h6 mb-3 font-weight-normal">City/Town</h2>
+        <label for="inputTransport" class="sr-only">City/Town</label>
+        <input type="transport" id="inputTransport" class="form-control mb-3" placeholder="Where are you from?">
+        <h2 class="h6 mb-3 font-weight-normal">Primary Transportation</h2>
+
+        <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <style>
+
+
+            </style>
         </head>
+
         <body>
-        
-        <div class="navbar">
-          <div class="dropdown">
-          <button class="dropbtn" onclick="myFunction()">Dropdown
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-content" id="myDropdown">
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
-          </div>
-          </div> 
-        </div>
-        
-        <script>
-        /* When the user clicks on the button, 
-        toggle between hiding and showing the dropdown content */
-        function myFunction() {
-          document.getElementById("myDropdown").classList.toggle("show");
-        }
-        
-        // Close the dropdown if the user clicks outside of it
-        window.onclick = function(e) {
-          if (!e.target.matches('.dropbtn')) {
-          var myDropdown = document.getElementById("myDropdown");
-            if (myDropdown.classList.contains('show')) {
-              myDropdown.classList.remove('show');
-            }
-          }
-        }
-        </script>
+
+            <div class="search-categories">
+                <div class="select">
+                    <select class="search-categories" id="search-categories">
+                        <option value="select">Select one...</option>
+                        <option value="car">Car</option>
+                        <option value="public">Public Transportation</option>
+                        <option value="walking">Walking</option>
+                        <option value="other">Not sure/Other</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <script>
+                * /
+
+                function myFunction() {
+                    document.getElementById("myDropdown").classList.toggle("show");
+                }
+
+                // Close the dropdown if the user clicks outside of it
+                window.onclick = function(e) {
+                    if (!e.target.matches('.dropbtn')) {
+                        var myDropdown = document.getElementById("myDropdown");
+                        if (myDropdown.classList.contains('show')) {
+                            myDropdown.classList.remove('show');
+                        }
+                    }
+                }
+
+            </script>
         </body>
-      <br>
-      <h2 class="h6 mb-3 font-weight-normal">Type of car</h2>
-      <label for="inputEmail" class="sr-only">Type of car</label>
-      <input type="email" id="inputEmail" class="form-control mb-3" placeholder="Type of car">
-      
-      
-    <a href="lets_go.html" class="btn btn-lg btn-primary btn-block home-btn">Next<span><img class="ml-2" src="./assets/arrow-right-circle.svg"/></span></a>
-      <!-- <button  type="submit">Let's get started!</button> -->
+        <br>
+        <h2 class="h6 mb-3 font-weight-normal">Type of car</h2>
+        <div class="search-categories">
+            <select class="search-categories" id="search-categories">
+                <option value="select">Select one...</option>
+                <option value="car">Small</option>
+                <option value="public">Medium</option>
+                <option value="walking">Large</option>
+                <option value="other">Not sure/Don't own a car</option>
+            </select>
+        </div>
+
+
+        <a href="lets_go.html" class="btn btn-lg btn-primary btn-block home-btn" id="next-button">Next<span><img class="ml-2" src="./assets/arrow-right-circle.svg"/></span></a>
+        <!-- <button  type="submit">Let's get started!</button> -->
     </form>
-  
-  
-  </body></html>
+
+
+</body>
+
+</html>
