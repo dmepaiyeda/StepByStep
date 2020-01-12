@@ -59,12 +59,15 @@ hr {
     color: #858585;
 }
 .add-group-button {
-    color: #fff;
-    font-size: 24px;
-    background-color: #8BBE7A;
-    width: 70vw;
-    margin: 0 auto;
+  color: #fff;
+  border-radius: 15px;
+  padding: 10px 0px; 
+  font-size: 24px;
+  background-color: #8BBE7A;
+  width: 70vw;
+  margin: 0 auto;
 }
+
 .add-group-button img {
     width: 30px;
     height: 30px;
