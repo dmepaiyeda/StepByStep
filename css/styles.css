@@ -32,6 +32,16 @@ hr {
     text-align: left;
     padding-left: 40px;
 }
+
+.leaderboard-border{
+    font-size: 32px;
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 45px;
+    padding-bottom: 20px;
+    text-align: left;
+    padding-left: 40px;
+}
+
 .groups-list {
     margin-bottom: 30px;
 }
@@ -89,7 +99,6 @@ footer img {
 }
 
 .trip-card{
-  padding: 1.5rem 1.5rem;
   font-family: 'Fira Sans', sans-serif;
   text-align: left;
   font-size: 24px;
@@ -123,4 +132,21 @@ footer img {
   font-family: 'Fira Sans', sans-serif;
   font-size: 20px;
   color: #8BBF7A;
+  padding-left: 20px;
+}
+
+.year{
+  padding-left: 20px;
+}
+
+.leaderboard{
+  font-size: 22px;
+}
+
+.badge-style{
+  float:right;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+  font-size: 16px;
+  background-color: #8BBE7A;
 }
