@@ -1,3 +1,6 @@
+* {
+    font-family: 'Fira Sans', sans-serif;
+}
 .header-examples {
     padding-top: 5px;
     padding-bottom: 5px;
@@ -19,6 +22,52 @@ hr {
 }
 .d-flex {
     border: ridge 1px blue;
+}
+#group-title {
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 45px;
+    padding-bottom: 20px;
+    border-bottom: solid 1px #cfcfcf;
+    text-align: left;
+    padding-left: 40px;
+}
+.groups-list {
+    margin-bottom: 30px;
+}
+.group {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    grid-gap: 15px;
+    padding-left: 30px;
+    padding-right: 20px;
+    text-align: left;
+    padding: 20px 0px;
+    border-bottom: solid 1px #cfcfcf;
+}
+.group img {
+    margin-left: 30px;
+    max-height: 70px;
+    border-radius: 100%;
+}
+.group h2 {
+    margin-left: 25px;
+    margin-bottom: 0px;
+}
+.group p {
+    margin-left: 25px;
+    font-size: 14px;
+    color: #858585;
+}
+.add-group-button {
+    color: #fff;
+    font-size: 24px;
+    background-color: #8BBE7A;
+    width: 70vw;
+    margin: 0 auto;
+}
+.add-group-button img {
+    width: 30px;
+    height: 30px;
 }
 footer {
     background-color: #8BBE7A;
