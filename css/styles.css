@@ -59,6 +59,7 @@ hr {
     color: #858585;
 }
 .add-group-button {
+<<<<<<< HEAD
     color: #fff;
     border-radius: 15px;
     padding: 10px 0px; 
@@ -66,7 +67,17 @@ hr {
     background-color: #8BBE7A;
     width: 70vw;
     margin: 0 auto;
+=======
+  color: #fff;
+  border-radius: 15px;
+  padding: 10px 0px; 
+  font-size: 24px;
+  background-color: #8BBE7A;
+  width: 70vw;
+  margin: 0 auto;
+>>>>>>> 79b382023caa2fc94ebafd82f75c19d4f3105bf0
 }
+
 .add-group-button img {
     width: 30px;
     height: 30px;
