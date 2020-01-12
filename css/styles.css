@@ -1,26 +1,32 @@
 .header-examples {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  text-align: center;
-  background: lightgray;
-  margin-bottom: 25px;
-  margin-top: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    background: lightgray;
+    margin-bottom: 25px;
+    margin-top: 25px;
 }
-
 .row {
-  border: ridge 1px blue;
+    border: ridge 1px blue;
 }
-
 br {
-  margin-top: 20px;
-  margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-
 hr {
-  margin-top: 40px;
-  margin-bottom: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
-
 .d-flex {
-  border: ridge 1px blue;
+    border: ridge 1px blue;
+}
+footer {
+    background-color: #8BBE7A;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+footer img {
+    margin-top: 35px;
 }
